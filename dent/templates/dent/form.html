@@ -1,0 +1,72 @@
+{% load static %}
+{% load i18n %}
+
+
+<div class="container-fluid px-1 py-5 mx-auto">
+        <div class="row d-flex justify-content-center">
+            <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+                <h3>
+                    {% trans "Book an appointment" %}
+                </h3>
+                  {% for thanking in messages %}
+                            <div id="hideafter" class="thanking" style="#hideafter {animation: hideAnimation 0s ease-in 3s; animation-fill-mode: forwards;
+                            @keyframes hideAnimation {to {visibility: hidden; width: 0;height: 0;}}}">
+                               <h3> {{ thanking }}</h3>
+                            </div>
+                  {% endfor %}
+                <div class="card">
+                    <form class="form-card" method="post">
+                         {% csrf_token %}
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "First name" %}<span class="text-danger"> *</span></label>
+                                {{ form.name }}
+                        </div>
+
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "Last name" %}<span class="text-danger"> *</span></label>
+                                {{ form.surname }}
+
+                        </div>
+
+                        </div>
+
+                        <div class="row justify-content-between text-left">
+
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                                <label class="form-control-label px-3">{% trans "Email" %}<span class="text-danger"> *</span>
+                                </label>
+                                    {{ form.email }}
+                            </div>
+
+                            <div class="form-group col-sm-6 flex-column d-flex">
+                             <label class="form-control-label px-3">{% trans "Phone number" %}<span class="text-danger"> *</span></label>
+                                {{ form.phone }}
+                            </div>
+
+                        </div>
+
+                        <div class="row justify-content-between text-left">
+                            <div class="form-group col-12 flex-column d-flex">
+                                <label class="form-control-label px-3">{% trans "Your request" %}<span class="text-danger"> *</span></label>
+                                {{ form.message }}
+                            </div>
+                        </div>
+                        <div class="row justify-content-end">
+                            <div class="form-group col-sm-6"> <button type="submit" class="btn-block btn-primary">{% trans "Send" %}</button> </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+  <!--  JQuery  -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!--  Bootstrap tooltips  -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!--  Bootstrap core JavaScript  -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+=

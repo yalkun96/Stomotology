@@ -1,0 +1,167 @@
+{% load static %}
+{% load i18n %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>{{ title }}</title>
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="{% static 'dent/css/bootstrap.css' %}" />
+  <link rel="stylesheet" href="{% static 'dent/css/styles.css' %}" />
+</head>
+
+<body>
+
+  <div class="header">
+    <nav class="navbar navbar-dark navbar-expand-md navigation-clean-search">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img class="naviamge" src="{% static 'dent/images/logoDent copy.png' %}" alt="image">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navcol-1" aria-controls="navcol-1" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navcol-1">
+          <ul class="navbar-nav">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="{% url 'home' %}">{% trans "Home" %}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="{% url 'about_us' %}">{% trans "About Us" %}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="{% url 'prices' %}">{% trans "Prices" %}</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active" href="{% url 'contact' %}">{% trans "Contact Us" %}</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0 ml-auto languageform" action="{% url 'set_language' %}" method="post">
+            {% csrf_token %}
+            <input name="next" type="hidden" value="{{ redirect_to }}">
+            <div class="dropdown">
+              <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                {% get_current_language as LANGUAGE_CODE %}
+                {% get_available_languages as LANGUAGES %}
+                {% get_language_info_list for LANGUAGES as languages %}
+                {% for language in languages %}
+                  {% if language.code == LANGUAGE_CODE %}
+                    {{ language.name_local }} ({{ language.code }})
+                  {% endif %}
+                {% endfor %}
+              </button>
+              <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                {% for language in languages %}
+                  <button class="dropdown-item language-option" type="button" data-lang-code="{{ language.code }}">
+                    {{ language.name_local }} ({{ language.code }})
+                  </button>
+                {% endfor %}
+              </div>
+              <input type="hidden" name="language" value="{{ LANGUAGE_CODE }}">
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    {% block content %}
+    {% endblock %}
+  </div>
+
+  <section id="contact" class="card m-4 p-4">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col-sm-6">
+          <div class="contact-detail-box">
+            <i class="far fa-envelope text-colored fa-3x"></i>
+            {% for desc in descriptions_list %}
+            <p>{% trans "Phone" %}: {{ desc.phone }}</p>
+            <p>{% trans "Email" %}: <a href="mailto:{{ desc.e_mail }}" class="text-muted">{{ desc.e_mail }}</a></p>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="col-sm-6">
+          <div class="contact-detail-box">
+            <i class="fa fa-map-marker fa-3x text-colored"></i>
+            <h4>{% trans "Our Location" %}</h4>
+            <address>
+              {% for desc in descriptions_list %}
+              {{ desc.address }}
+              {% endfor %}
+            </address>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6">
+          <div class="contact-map">
+            <iframe src="https://www.google.com/maps/embed/v1/place?q=Pla%C5%88ansk%C3%A1%20573%2F1&key=AIzaSyCSFA4GDMGU50x6eID54wau2s3nBY13DhE"
+              frameborder="0" scrolling="no" marginheight="0" marginwidth="0" style="width: 100%; height: 360px;"></iframe>
+          </div>
+        </div>
+        <div class="col-sm-6">
+          {% include 'dent/base_form.html' %}
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="border-top">
+    <div class="container px-4 px-lg-5">
+      <div class="row gx-4 gx-lg-5 justify-content-center">
+        <div class="col-md-10 col-lg-8 col-xl-7">
+          <ul class="list-inline text-center">
+            <li class="list-inline-item">
+              <a href="#!">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#!">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="#!">
+                <span class="fa-stack fa-lg">
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                </span>
+              </a>
+            </li>
+          </ul>
+          <div class="small text-center text-muted fst-italic">Copyright &copy; IKDENTAL s.r.o.</div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="{% static 'dent/js/jquery.js' %}"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGaCjvZf3l6fV5z2YrQv5zwSUz" crossorigin="anonymous"></script>
+  <script src="{% static 'dent/js/bootstrap.min.js' %}"></script>
+  <script>
+    $(document).ready(function() {
+      // Initialize dropdown
+      $('.dropdown-toggle').dropdown();
+
+      // Handle language option click
+      $('.language-option').on('click', function() {
+        var langCode = $(this).data('lang-code');
+        $('input[name="language"]').val(langCode);
+        $(this).closest('form').submit();
+      });
+    });
+  </script>
+
+</body>
+</html>

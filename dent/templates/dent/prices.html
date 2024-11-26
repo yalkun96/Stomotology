@@ -1,0 +1,39 @@
+{% extends 'dent/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+    <style>
+        .header {background: url("/static/dent/images/services2.jpg") no-repeat;
+        background-size: cover;}
+
+    </style>
+<section id="services">
+  <div class="bg-primary text-center py-5 mb-4">
+      <div class="container">
+        <p class="overview">{% trans "We provide compassionate and expert care to our community. You are at the center of everything we do. Let us be your healthcare partner." %}</p>
+      </div>
+    </div>
+  <div class="container">
+    <div class="row">
+    {% for price in prices_list %}
+      <!-- Team Member 1 -->
+      <div class="col-xl-3 col-md-6 mb-4">
+        <div class="card border-0 shadow">
+          <div class="card-body text-center">
+              <img src="{{ price.photo.url }}" class="card-img-top" alt="..." style="max-width:50px; width:100%; margin: 20px;">
+              <p>{{ price.services }}</p>
+              <p>{{ price.description }}</p>
+              <p>{{ price.prices }}</p>
+          </div>
+        </div>
+
+      </div>
+    {% endfor %}
+
+
+  </div>
+</section>
+
+
+{% endblock %}

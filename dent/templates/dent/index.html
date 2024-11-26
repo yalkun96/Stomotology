@@ -1,0 +1,44 @@
+{% extends 'dent/base.html' %}
+{% load static %}
+{% load i18n %}
+
+
+{% block content %}
+    <style>
+        .header {background: url("/static/dent/images/home.jpg") no-repeat;
+        background-size: cover;}
+        .col-12.col-lg-6.col-xl-5.offset-xl-1 {
+            background-color: rgba(255, 255, 255, 0.5);
+            border-radius: 10px;
+            padding: 10px;
+            text-align: center;
+            transition: 0.8s;
+        }
+        .col-12.col-lg-6.col-xl-5.offset-xl-1:hover {
+            background-color: rgba(255, 255, 255, 1);
+            transition: 0.8s;
+        }
+    </style>
+      {% for thanking in messages %}
+          <div id="hideafter" class="thanking" style="#hideafter {animation: hideAnimation 0s ease-in 3s; animation-fill-mode: forwards;
+          @keyframes hideAnimation {to {visibility: hidden; width: 0;height: 0;}}}">
+              <h3> {{ thanking }}</h3>
+          </div>
+      {% endfor %}
+    <div class="container hero">
+        <div class="row">
+            <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                {% for desc in descriptions_list %}
+                    <p>{{ desc.home_page_description }}</p>
+                {% endfor %}
+                    <a href="{% url 'contact' %}" class="btn btn-light btn-lg action-button" type="button">{% trans "Book an appointment" %}</a>
+                    <a href="https://www.znamylekar.cz/zdravotnicka-zarizeni/ikdental-s-r-o/uprava-profilu" target="_blank" class="btn btn-light btn-lg action-button" type="button">ZnamyLekar.cz</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+{% endblock %}

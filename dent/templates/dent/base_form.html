@@ -1,0 +1,55 @@
+{% load static %}
+{% load i18n %}
+
+<div class="container">
+    <h3>{% trans "Book an appointment" %}</h3>
+
+    {% for thanking in messages %}
+    <div id="hideafter" class="thanking" style="animation: hideAnimation 0s ease-in 3s; animation-fill-mode: forwards;">
+        <h3>{{ thanking }}</h3>
+    </div>
+    {% endfor %}
+
+    <form class="form-card" method="post">
+        {% csrf_token %}
+        <div class="form-group">
+            <label for="name2">{% trans "Name" %}</label>
+            {{ form.name }}
+            <div class="error" id="err-name" style="display: none;">{% trans "Please enter name" %}</div>
+        </div>
+        <div class="form-group">
+            <label for="email2">{% trans "Email" %}</label>
+            {{ form.email }}
+            <div class="error" id="err-emailvld" style="display: none;">{% trans "E-mail is not a valid format" %}</div>
+        </div>
+        <div class="form-group">
+            <label for="message2">{% trans "Message" %}</label>
+            {{ form.message }}
+            <div class="error" id="err-message" style="display: none;">{% trans "Please enter message" %}</div>
+        </div>
+        <div class="row">
+            <button type="submit" class="btn btn-primary btn-shadow btn-rounded w-md" id="send">{% trans "Send" %}</button>
+        </div>
+    </form>
+</div>
+
+<!-- JQuery -->
+<script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+
+<style>
+    #hideafter {
+        animation: hideAnimation 0s ease-in 3s;
+        animation-fill-mode: forwards;
+    }
+    @keyframes hideAnimation {
+        to {
+            visibility: hidden;
+            width: 0;
+            height: 0;
+        }
+    }
+</style>

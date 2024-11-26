@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" host="ssh.rosti.cz" id="0dd219fd-c6b7-4afd-b6ea-99add7eba758" port="14355" customName="Webglobe" nameFormat="CUSTOM" username="app" useOpenSSHConfig="true">
+        <option name="customName" value="Webglobe" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

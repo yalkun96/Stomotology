@@ -1,0 +1,12 @@
+[Unit]
+Description=gunicorn daemon for Stomotology
+After=network.target
+
+[Service]
+User=ikdentall.cz
+Group=668198
+WorkingDirectory=/public_html/Stomotology
+ExecStart=/public_html/Stomotology/venv/bin/gunicorn --workers 3 --bind unix:/public_html/Stomotology/Stomotology.sock Stomotology.wsgi:application
+
+[Install]
+WantedBy=multi-user.target

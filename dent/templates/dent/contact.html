@@ -1,0 +1,135 @@
+{% extends 'dent/base.html' %}
+{% load static %}
+{% load i18n %}
+
+{% block content %}
+<style>
+    .header {
+        background: url("{% static 'dent/images/contact.jpg' %}") no-repeat;
+        background-size: cover;
+    }
+    .card {
+        padding: 30px 40px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+        border: none !important;
+        box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    }
+    .blue-text {
+        color: #00BCD4;
+    }
+    .form-control-label {
+        margin-bottom: 0;
+    }
+    input,
+    textarea,
+    button {
+        padding: 8px 15px;
+        border-radius: 5px !important;
+        margin: 5px 0px;
+        box-sizing: border-box;
+        border: 1px solid #ccc;
+        font-size: 18px !important;
+        font-weight: 300;
+    }
+    input:focus,
+    textarea:focus {
+        box-shadow: none !important;
+        border: 1px solid #00BCD4;
+        outline-width: 0;
+        font-weight: 400;
+    }
+    .btn-block {
+        text-transform: uppercase;
+        font-size: 15px !important;
+        font-weight: 400;
+        height: 43px;
+        cursor: pointer;
+    }
+    .btn-block:hover {
+        color: #fff !important;
+    }
+    button:focus {
+        box-shadow: none !important;
+        outline-width: 0;
+    }
+    h3 {
+        font-size: 20px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        transition: 0.8s;
+        padding: 10px;
+    }
+    h3:hover {
+        background-color: rgba(255, 255, 255, 1);
+        transition: 0.8s;
+    }
+</style>
+
+<div class="container-fluid px-1 py-5 mx-auto">
+    <div class="row d-flex justify-content-center">
+        <div class="col-xl-7 col-lg-8 col-md-9 col-11 text-center">
+            <h3>
+                {% for desc in descriptions_list %}
+                    <p>{% trans "Phone" %}: {{ desc.phone }}</p>
+                    <p>{% trans "Email" %}: <a href="mailto:{{ desc.e_mail }}" class="text-muted">{{ desc.e_mail }}</a></p>
+                {% endfor %}
+                {% for desc in descriptions_list %}
+                    <p>{% trans "Address" %}: {{ desc.address }}</p>
+                {% endfor %}
+            </h3>
+            {% for thanking in messages %}
+                <div id="hideafter" class="thanking" style="animation: hideAnimation 0s ease-in 3s; animation-fill-mode: forwards;">
+                    <h3>{{ thanking }}</h3>
+                </div>
+            {% endfor %}
+            <div class="card">
+                <form class="form-card" method="post">
+                    {% csrf_token %}
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "First name" %}<span class="text-danger"> *</span></label>
+                            {{ form.name }}
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "Last name" %}<span class="text-danger"> *</span></label>
+                            {{ form.surname }}
+                        </div>
+                    </div>
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "Email" %}<span class="text-danger"> *</span></label>
+                            {{ form.email }}
+                        </div>
+                        <div class="form-group col-sm-6 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "Phone number" %}<span class="text-danger"> *</span></label>
+                            {{ form.phone }}
+                        </div>
+                    </div>
+                    <div class="row justify-content-between text-left">
+                        <div class="form-group col-12 flex-column d-flex">
+                            <label class="form-control-label px-3">{% trans "Your request" %}<span class="text-danger"> *</span></label>
+                            {{ form.message }}
+                        </div>
+                    </div>
+                    <div class="row justify-content-between text-left">
+                        {{ form.captcha }}
+                    </div>
+                    <div class="row justify-content-end">
+                        <div class="form-group col-sm-6">
+                            <button type="submit" class="btn-block btn-primary">{% trans "Send" %}</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JQuery -->
+<script type="text/javascript" src="{% static 'js/jquery-3.4.1.min.js' %}"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="{% static 'js/popper.min.js' %}"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="{% static 'js/bootstrap.min.js' %}"></script>
+{% endblock %}
