@@ -16,6 +16,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="0242ae86-05b9-476b-9969-402e93c21ac7" name="rostiapp">
+        <fileTransfer accessType="SFTP" sshConfigId="d37210a5-8de8-4e46-8bfc-b0c34f3ef8d1" sshConfig="rostiapp">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </project>

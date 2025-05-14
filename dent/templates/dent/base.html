@@ -80,6 +80,13 @@
             {% for desc in descriptions_list %}
             <p>{% trans "Phone" %}: {{ desc.phone }}</p>
             <p>{% trans "Email" %}: <a href="mailto:{{ desc.e_mail }}" class="text-muted">{{ desc.e_mail }}</a></p>
+                <p class="contact-detail-box">{% trans "Opening hours" %}:<br>
+                    {% trans 'Mo' %}: 8 00- 15 00<br>
+                    {% trans 'Tu' %}: 8 00 - 16 00<br>
+                    {% trans 'Wd' %}: 13 00-19 00<br>
+                    {% trans 'Th' %}: 8 00-16 00 <br>
+                    {% trans 'Fr' %}: 8 00- 14 00
+                </p>
             {% endfor %}
           </div>
         </div>

@@ -17,6 +17,7 @@ class Prices(models.Model):
     prices = models.CharField(max_length=200)
     photo = models.ImageField(upload_to='photos', null=True)
 
+
     def __str__(self):
         return self.services
 
@@ -25,7 +26,9 @@ class Descriptions(models.Model):
     address = models.CharField(max_length=200, blank=True)
     phone = models.CharField(max_length=200, blank=True)
     home_page_description = models.CharField(max_length=400, blank=True)
+    opening_hours = models.CharField(max_length=200, blank=True)
 
 
 
-
+class Banners(models.Model):
+    banner = models.TextField(blank=True)

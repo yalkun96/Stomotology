@@ -32,10 +32,14 @@
                     <p>{{ desc.home_page_description }}</p>
                 {% endfor %}
                     <a href="{% url 'contact' %}" class="btn btn-light btn-lg action-button" type="button">{% trans "Book an appointment" %}</a>
-                    <a href="https://www.znamylekar.cz/zdravotnicka-zarizeni/ikdental-s-r-o/uprava-profilu" target="_blank" class="btn btn-light btn-lg action-button" type="button">ZnamyLekar.cz</a>
+                    <a href="https://www.znamylekar.cz/zarizeni/ikdental-s-r-o" target="_blank" class="btn btn-light btn-lg action-button" type="button">ZnamyLekar.cz</a>
+                {% for banner in banner %}
+                    <p>{{ banner.banner }}</p>
+                {% endfor %}
             </div>
 
         </div>
+
     </div>
 </div>
 

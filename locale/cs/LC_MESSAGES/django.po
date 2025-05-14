@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-08-18 22:44+0200\n"
+"POT-Creation-Date: 2025-05-14 23:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,17 +47,41 @@ msgstr "Ceny"
 msgid "Contact Us"
 msgstr "Kontakt"
 
-#: dent/templates/dent/base.html:81 dent/templates/dent/contact.html:86
+#: dent/templates/dent/base.html:81 dent/templates/dent/contact.html:74
 msgid "Phone"
 msgstr "Telefonní číslo"
 
 #: dent/templates/dent/base.html:82 dent/templates/dent/base_form.html:21
-#: dent/templates/dent/contact.html:87 dent/templates/dent/contact.html:119
+#: dent/templates/dent/contact.html:75 dent/templates/dent/contact.html:101
 #: dent/templates/dent/form.html:37
 msgid "Email"
 msgstr "Email"
 
-#: dent/templates/dent/base.html:89
+#: dent/templates/dent/base.html:83
+msgid "Opening hours"
+msgstr "Pracovní doba"
+
+#: dent/templates/dent/base.html:83
+msgid "Mo"
+msgstr "Po"
+
+#: dent/templates/dent/base.html:84
+msgid "Tu"
+msgstr "Ut"
+
+#: dent/templates/dent/base.html:85
+msgid "Wd"
+msgstr "St"
+
+#: dent/templates/dent/base.html:86
+msgid "Th"
+msgstr "Čt"
+
+#: dent/templates/dent/base.html:87
+msgid "Fr"
+msgstr "Pa"
+
+#: dent/templates/dent/base.html:94
 msgid "Our Location"
 msgstr "Jak nás najdete"
 
@@ -86,28 +110,28 @@ msgstr "Zpráva"
 msgid "Please enter message"
 msgstr "Zadejte zprávu"
 
-#: dent/templates/dent/base_form.html:31 dent/templates/dent/contact.html:141
+#: dent/templates/dent/base_form.html:31 dent/templates/dent/contact.html:120
 #: dent/templates/dent/form.html:56
 msgid "Send"
 msgstr "Poslat"
 
-#: dent/templates/dent/contact.html:90
+#: dent/templates/dent/contact.html:78
 msgid "Address"
 msgstr "Adresa"
 
-#: dent/templates/dent/contact.html:104 dent/templates/dent/form.html:22
+#: dent/templates/dent/contact.html:91 dent/templates/dent/form.html:22
 msgid "First name"
 msgstr "Jméno"
 
-#: dent/templates/dent/contact.html:109 dent/templates/dent/form.html:27
+#: dent/templates/dent/contact.html:95 dent/templates/dent/form.html:27
 msgid "Last name"
 msgstr "Příjmení"
 
-#: dent/templates/dent/contact.html:125 dent/templates/dent/form.html:43
+#: dent/templates/dent/contact.html:105 dent/templates/dent/form.html:43
 msgid "Phone number"
 msgstr "Telefonní číslo"
 
-#: dent/templates/dent/contact.html:133 dent/templates/dent/form.html:51
+#: dent/templates/dent/contact.html:111 dent/templates/dent/form.html:51
 msgid "Your request"
 msgstr "Vaše požadavky"
 
@@ -450,8 +474,8 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1550
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD HH:MM[:ss[."
-"uuuuuu]][TZ] format."
+"“%(value)s” value has an invalid format. It must be in YYYY-MM-DD "
+"HH:MM[:ss[.uuuuuu]][TZ] format."
 msgstr ""
 
 #: myenv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1558
@@ -482,8 +506,8 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1853
 #, python-format
 msgid ""
-"“%(value)s” value has an invalid format. It must be in [DD] [[HH:]MM:]ss[."
-"uuuuuu] format."
+"“%(value)s” value has an invalid format. It must be in [DD] "
+"[[HH:]MM:]ss[.uuuuuu] format."
 msgstr ""
 
 #: myenv/lib/python3.11/site-packages/django/db/models/fields/__init__.py:1857
@@ -1502,8 +1526,8 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/django/views/generic/dates.py:652
 #, python-format
 msgid ""
-"Future %(verbose_name_plural)s not available because %(class_name)s."
-"allow_future is False."
+"Future %(verbose_name_plural)s not available because "
+"%(class_name)s.allow_future is False."
 msgstr ""
 
 #: myenv/lib/python3.11/site-packages/django/views/generic/dates.py:692
@@ -1615,6 +1639,12 @@ msgstr ""
 #: venv/lib/python3.11/site-packages/modeltranslation/widgets.py:32
 msgid "None"
 msgstr ""
+
+#~ msgid "ČT"
+#~ msgstr "ČT"
+
+#~ msgid "PA"
+#~ msgstr "PA"
 
 #, fuzzy
 #~| msgid "Prices"

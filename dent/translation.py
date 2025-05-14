@@ -7,10 +7,13 @@ class TeamTranslationOptions(TranslationOptions):
 
 @register(Prices)
 class PricesTranslationOptions(TranslationOptions):
-    fields = ('description', 'services', 'prices')
+    fields = ('description', 'services', 'prices',)
 
 
 @register(Descriptions)
 class DescriptionsTranslationOptions(TranslationOptions):
     fields = ('home_page_description',)
 
+@register(Banners)
+class BannersTranslationOptions(TranslationOptions):
+    fields = ('banner',)
