@@ -1696,3 +1696,398 @@ FileNotFoundError: [Errno 2] No such file or directory: '/Users/zzzzzz/PycharmPr
 [2025-05-14 19:19:24 +0200] [870] [INFO] Booting worker with pid: 870
 [2025-05-14 19:19:24 +0200] [871] [INFO] Booting worker with pid: 871
 [2025-05-14 19:19:24 +0200] [872] [INFO] Booting worker with pid: 872
+[2025-05-15 21:57:34 +0200] [550] [INFO] Handling signal: term
+[2025-05-15 19:57:34 +0000] [872] [INFO] Worker exiting (pid: 872)
+[2025-05-15 19:57:34 +0000] [870] [INFO] Worker exiting (pid: 870)
+[2025-05-15 19:57:34 +0000] [871] [INFO] Worker exiting (pid: 871)
+[2025-05-15 21:57:34 +0200] [550] [INFO] Shutting down: Master
+[2025-05-15 21:58:31 +0200] [518] [INFO] Starting gunicorn 22.0.0
+[2025-05-15 21:58:31 +0200] [518] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (518)
+[2025-05-15 21:58:31 +0200] [518] [INFO] Using worker: sync
+[2025-05-15 21:58:31 +0200] [889] [INFO] Booting worker with pid: 889
+[2025-05-15 21:58:31 +0200] [894] [INFO] Booting worker with pid: 894
+[2025-05-15 21:58:31 +0200] [897] [INFO] Booting worker with pid: 897
+[2025-05-15 22:51:55 +0200] [518] [INFO] Handling signal: term
+[2025-05-15 20:51:55 +0000] [894] [INFO] Worker exiting (pid: 894)
+[2025-05-15 20:51:55 +0000] [889] [INFO] Worker exiting (pid: 889)
+[2025-05-15 20:51:55 +0000] [897] [INFO] Worker exiting (pid: 897)
+[2025-05-15 22:51:55 +0200] [518] [INFO] Shutting down: Master
+[2025-05-15 22:52:53 +0200] [564] [INFO] Starting gunicorn 22.0.0
+[2025-05-15 22:52:53 +0200] [564] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (564)
+[2025-05-15 22:52:53 +0200] [564] [INFO] Using worker: sync
+[2025-05-15 22:52:53 +0200] [860] [INFO] Booting worker with pid: 860
+[2025-05-15 22:52:53 +0200] [869] [INFO] Booting worker with pid: 869
+[2025-05-15 22:52:53 +0200] [882] [INFO] Booting worker with pid: 882
+[2025-05-15 23:50:14 +0200] [564] [INFO] Handling signal: term
+[2025-05-15 21:50:14 +0000] [882] [INFO] Worker exiting (pid: 882)
+[2025-05-15 21:50:14 +0000] [860] [INFO] Worker exiting (pid: 860)
+[2025-05-15 21:50:14 +0000] [869] [INFO] Worker exiting (pid: 869)
+[2025-05-15 23:50:15 +0200] [564] [INFO] Shutting down: Master
+[2025-05-16 19:36:08 +0200] [553] [INFO] Starting gunicorn 22.0.0
+[2025-05-16 19:36:08 +0200] [553] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (553)
+[2025-05-16 19:36:08 +0200] [553] [INFO] Using worker: sync
+[2025-05-16 19:36:08 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-05-16 19:36:08 +0200] [858] [INFO] Booting worker with pid: 858
+[2025-05-16 19:36:08 +0200] [863] [INFO] Booting worker with pid: 863
+[2025-05-18 23:03:23 +0200] [553] [INFO] Handling signal: term
+[2025-05-18 21:03:23 +0000] [858] [INFO] Worker exiting (pid: 858)
+[2025-05-18 21:03:23 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-05-18 21:03:23 +0000] [863] [INFO] Worker exiting (pid: 863)
+[2025-05-18 23:03:23 +0200] [553] [INFO] Shutting down: Master
+[2025-05-19 17:54:49 +0200] [536] [INFO] Starting gunicorn 22.0.0
+[2025-05-19 17:54:49 +0200] [536] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (536)
+[2025-05-19 17:54:49 +0200] [536] [INFO] Using worker: sync
+[2025-05-19 17:54:49 +0200] [848] [INFO] Booting worker with pid: 848
+[2025-05-19 17:54:49 +0200] [849] [INFO] Booting worker with pid: 849
+[2025-05-19 17:54:49 +0200] [850] [INFO] Booting worker with pid: 850
+[2025-05-19 23:50:05 +0200] [536] [INFO] Handling signal: term
+[2025-05-19 21:50:05 +0000] [850] [INFO] Worker exiting (pid: 850)
+[2025-05-19 21:50:05 +0000] [849] [INFO] Worker exiting (pid: 849)
+[2025-05-19 21:50:05 +0000] [848] [INFO] Worker exiting (pid: 848)
+[2025-05-19 23:50:05 +0200] [536] [INFO] Shutting down: Master
+[2025-05-20 21:19:13 +0200] [755] [INFO] Starting gunicorn 22.0.0
+[2025-05-20 21:19:13 +0200] [755] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (755)
+[2025-05-20 21:19:13 +0200] [755] [INFO] Using worker: sync
+[2025-05-20 21:19:13 +0200] [1076] [INFO] Booting worker with pid: 1076
+[2025-05-20 21:19:13 +0200] [1077] [INFO] Booting worker with pid: 1077
+[2025-05-20 21:19:13 +0200] [1086] [INFO] Booting worker with pid: 1086
+[2025-05-20 23:44:18 +0200] [755] [INFO] Handling signal: term
+[2025-05-20 21:44:18 +0000] [1077] [INFO] Worker exiting (pid: 1077)
+[2025-05-20 21:44:18 +0000] [1076] [INFO] Worker exiting (pid: 1076)
+[2025-05-20 21:44:18 +0000] [1086] [INFO] Worker exiting (pid: 1086)
+[2025-05-20 23:44:19 +0200] [755] [INFO] Shutting down: Master
+[2025-05-21 20:02:58 +0200] [550] [INFO] Starting gunicorn 22.0.0
+[2025-05-21 20:02:58 +0200] [550] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (550)
+[2025-05-21 20:02:58 +0200] [550] [INFO] Using worker: sync
+[2025-05-21 20:02:58 +0200] [853] [INFO] Booting worker with pid: 853
+[2025-05-21 20:02:58 +0200] [854] [INFO] Booting worker with pid: 854
+[2025-05-21 20:02:58 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-05-21 23:32:10 +0200] [550] [INFO] Handling signal: term
+[2025-05-21 21:32:10 +0000] [853] [INFO] Worker exiting (pid: 853)
+[2025-05-21 21:32:10 +0000] [854] [INFO] Worker exiting (pid: 854)
+[2025-05-21 21:32:10 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-05-21 23:32:11 +0200] [550] [INFO] Shutting down: Master
+[2025-05-22 18:40:34 +0200] [543] [INFO] Starting gunicorn 22.0.0
+[2025-05-22 18:40:34 +0200] [543] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (543)
+[2025-05-22 18:40:34 +0200] [543] [INFO] Using worker: sync
+[2025-05-22 18:40:34 +0200] [900] [INFO] Booting worker with pid: 900
+[2025-05-22 18:40:35 +0200] [909] [INFO] Booting worker with pid: 909
+[2025-05-22 18:40:35 +0200] [916] [INFO] Booting worker with pid: 916
+[2025-05-25 10:52:06 +0200] [543] [INFO] Handling signal: term
+[2025-05-25 08:52:06 +0000] [909] [INFO] Worker exiting (pid: 909)
+[2025-05-25 08:52:06 +0000] [916] [INFO] Worker exiting (pid: 916)
+[2025-05-25 08:52:06 +0000] [900] [INFO] Worker exiting (pid: 900)
+[2025-05-25 10:52:06 +0200] [543] [INFO] Shutting down: Master
+[2025-05-26 01:14:17 +0200] [542] [INFO] Starting gunicorn 22.0.0
+[2025-05-26 01:14:17 +0200] [542] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (542)
+[2025-05-26 01:14:17 +0200] [542] [INFO] Using worker: sync
+[2025-05-26 01:14:17 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-05-26 01:14:17 +0200] [863] [INFO] Booting worker with pid: 863
+[2025-05-26 01:14:17 +0200] [866] [INFO] Booting worker with pid: 866
+[2025-06-10 15:18:03 +0500] [542] [INFO] Handling signal: term
+[2025-06-10 10:18:04 +0000] [863] [INFO] Worker exiting (pid: 863)
+[2025-06-10 10:18:04 +0000] [866] [INFO] Worker exiting (pid: 866)
+[2025-06-10 10:18:04 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-06-10 15:18:04 +0500] [542] [INFO] Shutting down: Master
+[2025-06-10 15:18:55 +0500] [544] [INFO] Starting gunicorn 22.0.0
+[2025-06-10 15:18:55 +0500] [544] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (544)
+[2025-06-10 15:18:55 +0500] [544] [INFO] Using worker: sync
+[2025-06-10 15:18:55 +0500] [915] [INFO] Booting worker with pid: 915
+[2025-06-10 15:18:55 +0500] [919] [INFO] Booting worker with pid: 919
+[2025-06-10 15:18:55 +0500] [922] [INFO] Booting worker with pid: 922
+[2025-06-18 23:39:22 +0200] [544] [INFO] Handling signal: term
+[2025-06-18 21:39:22 +0000] [922] [INFO] Worker exiting (pid: 922)
+[2025-06-18 21:39:22 +0000] [915] [INFO] Worker exiting (pid: 915)
+[2025-06-18 21:39:22 +0000] [919] [INFO] Worker exiting (pid: 919)
+[2025-06-18 23:39:22 +0200] [544] [INFO] Shutting down: Master
+[2025-06-19 17:43:00 +0200] [526] [INFO] Starting gunicorn 22.0.0
+[2025-06-19 17:43:00 +0200] [526] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (526)
+[2025-06-19 17:43:00 +0200] [526] [INFO] Using worker: sync
+[2025-06-19 17:43:00 +0200] [877] [INFO] Booting worker with pid: 877
+[2025-06-19 17:43:00 +0200] [882] [INFO] Booting worker with pid: 882
+[2025-06-19 17:43:00 +0200] [883] [INFO] Booting worker with pid: 883
+[2025-06-19 23:37:25 +0200] [526] [INFO] Handling signal: term
+[2025-06-19 21:37:25 +0000] [882] [INFO] Worker exiting (pid: 882)
+[2025-06-19 21:37:25 +0000] [883] [INFO] Worker exiting (pid: 883)
+[2025-06-19 21:37:25 +0000] [877] [INFO] Worker exiting (pid: 877)
+[2025-06-19 23:37:25 +0200] [526] [INFO] Shutting down: Master
+[2025-06-20 19:04:41 +0200] [532] [INFO] Starting gunicorn 22.0.0
+[2025-06-20 19:04:41 +0200] [532] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (532)
+[2025-06-20 19:04:41 +0200] [532] [INFO] Using worker: sync
+[2025-06-20 19:04:41 +0200] [852] [INFO] Booting worker with pid: 852
+[2025-06-20 19:04:41 +0200] [853] [INFO] Booting worker with pid: 853
+[2025-06-20 19:04:41 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-06-24 23:32:57 +0200] [532] [INFO] Handling signal: term
+[2025-06-24 21:32:57 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-06-24 21:32:57 +0000] [852] [INFO] Worker exiting (pid: 852)
+[2025-06-24 21:32:57 +0000] [853] [INFO] Worker exiting (pid: 853)
+[2025-06-24 23:32:57 +0200] [532] [INFO] Shutting down: Master
+[2025-06-25 19:51:59 +0200] [533] [INFO] Starting gunicorn 22.0.0
+[2025-06-25 19:51:59 +0200] [533] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (533)
+[2025-06-25 19:51:59 +0200] [533] [INFO] Using worker: sync
+[2025-06-25 19:51:59 +0200] [889] [INFO] Booting worker with pid: 889
+[2025-06-25 19:51:59 +0200] [891] [INFO] Booting worker with pid: 891
+[2025-06-25 19:51:59 +0200] [892] [INFO] Booting worker with pid: 892
+[2025-07-03 00:42:23 +0200] [533] [INFO] Handling signal: term
+[2025-07-02 22:42:24 +0000] [889] [INFO] Worker exiting (pid: 889)
+[2025-07-02 22:42:24 +0000] [892] [INFO] Worker exiting (pid: 892)
+[2025-07-02 22:42:24 +0000] [891] [INFO] Worker exiting (pid: 891)
+[2025-07-03 00:42:24 +0200] [533] [INFO] Shutting down: Master
+[2025-07-03 12:49:35 +0200] [547] [INFO] Starting gunicorn 22.0.0
+[2025-07-03 12:49:35 +0200] [547] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (547)
+[2025-07-03 12:49:35 +0200] [547] [INFO] Using worker: sync
+[2025-07-03 12:49:35 +0200] [852] [INFO] Booting worker with pid: 852
+[2025-07-03 12:49:35 +0200] [853] [INFO] Booting worker with pid: 853
+[2025-07-03 12:49:35 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-07-06 21:30:43 +0200] [547] [INFO] Handling signal: term
+[2025-07-06 19:30:43 +0000] [852] [INFO] Worker exiting (pid: 852)
+[2025-07-06 19:30:43 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-07-06 19:30:43 +0000] [853] [INFO] Worker exiting (pid: 853)
+[2025-07-06 21:30:43 +0200] [547] [INFO] Shutting down: Master
+[2025-07-06 21:31:46 +0200] [545] [INFO] Starting gunicorn 22.0.0
+[2025-07-06 21:31:46 +0200] [545] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (545)
+[2025-07-06 21:31:46 +0200] [545] [INFO] Using worker: sync
+[2025-07-06 21:31:46 +0200] [897] [INFO] Booting worker with pid: 897
+[2025-07-06 21:31:46 +0200] [899] [INFO] Booting worker with pid: 899
+[2025-07-06 21:31:46 +0200] [904] [INFO] Booting worker with pid: 904
+[2025-07-07 10:31:40 +0200] [545] [INFO] Handling signal: term
+[2025-07-07 08:31:40 +0000] [899] [INFO] Worker exiting (pid: 899)
+[2025-07-07 08:31:40 +0000] [897] [INFO] Worker exiting (pid: 897)
+[2025-07-07 08:31:40 +0000] [904] [INFO] Worker exiting (pid: 904)
+[2025-07-07 10:31:41 +0200] [545] [INFO] Shutting down: Master
+[2025-07-07 20:26:41 +0200] [535] [INFO] Starting gunicorn 22.0.0
+[2025-07-07 20:26:41 +0200] [535] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (535)
+[2025-07-07 20:26:41 +0200] [535] [INFO] Using worker: sync
+[2025-07-07 20:26:41 +0200] [887] [INFO] Booting worker with pid: 887
+[2025-07-07 20:26:41 +0200] [888] [INFO] Booting worker with pid: 888
+[2025-07-07 20:26:41 +0200] [892] [INFO] Booting worker with pid: 892
+[2025-07-07 23:50:44 +0200] [535] [INFO] Handling signal: term
+[2025-07-07 21:50:44 +0000] [892] [INFO] Worker exiting (pid: 892)
+[2025-07-07 21:50:44 +0000] [887] [INFO] Worker exiting (pid: 887)
+[2025-07-07 21:50:44 +0000] [888] [INFO] Worker exiting (pid: 888)
+[2025-07-07 23:50:44 +0200] [535] [INFO] Shutting down: Master
+[2025-07-08 18:58:48 +0200] [542] [INFO] Starting gunicorn 22.0.0
+[2025-07-08 18:58:48 +0200] [542] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (542)
+[2025-07-08 18:58:48 +0200] [542] [INFO] Using worker: sync
+[2025-07-08 18:58:48 +0200] [869] [INFO] Booting worker with pid: 869
+[2025-07-08 18:58:48 +0200] [878] [INFO] Booting worker with pid: 878
+[2025-07-08 18:58:48 +0200] [881] [INFO] Booting worker with pid: 881
+[2025-07-10 23:11:19 +0200] [542] [INFO] Handling signal: term
+[2025-07-10 21:11:19 +0000] [881] [INFO] Worker exiting (pid: 881)
+[2025-07-10 21:11:19 +0000] [869] [INFO] Worker exiting (pid: 869)
+[2025-07-10 21:11:19 +0000] [878] [INFO] Worker exiting (pid: 878)
+[2025-07-10 23:11:19 +0200] [542] [INFO] Shutting down: Master
+[2025-07-11 18:19:24 +0200] [557] [INFO] Starting gunicorn 22.0.0
+[2025-07-11 18:19:24 +0200] [557] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (557)
+[2025-07-11 18:19:24 +0200] [557] [INFO] Using worker: sync
+[2025-07-11 18:19:24 +0200] [899] [INFO] Booting worker with pid: 899
+[2025-07-11 18:19:24 +0200] [900] [INFO] Booting worker with pid: 900
+[2025-07-11 18:19:24 +0200] [901] [INFO] Booting worker with pid: 901
+[2025-07-13 23:15:43 +0200] [557] [INFO] Handling signal: term
+[2025-07-13 21:15:43 +0000] [899] [INFO] Worker exiting (pid: 899)
+[2025-07-13 21:15:43 +0000] [900] [INFO] Worker exiting (pid: 900)
+[2025-07-13 21:15:43 +0000] [901] [INFO] Worker exiting (pid: 901)
+[2025-07-13 23:15:44 +0200] [557] [INFO] Shutting down: Master
+[2025-07-15 19:35:17 +0200] [543] [INFO] Starting gunicorn 22.0.0
+[2025-07-15 19:35:17 +0200] [543] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (543)
+[2025-07-15 19:35:17 +0200] [543] [INFO] Using worker: sync
+[2025-07-15 19:35:17 +0200] [905] [INFO] Booting worker with pid: 905
+[2025-07-15 19:35:17 +0200] [908] [INFO] Booting worker with pid: 908
+[2025-07-15 19:35:17 +0200] [911] [INFO] Booting worker with pid: 911
+[2025-07-16 00:02:54 +0200] [543] [INFO] Handling signal: term
+[2025-07-15 22:02:54 +0000] [905] [INFO] Worker exiting (pid: 905)
+[2025-07-15 22:02:54 +0000] [911] [INFO] Worker exiting (pid: 911)
+[2025-07-15 22:02:54 +0000] [908] [INFO] Worker exiting (pid: 908)
+[2025-07-16 00:02:54 +0200] [543] [INFO] Shutting down: Master
+[2025-07-16 12:42:20 +0200] [524] [INFO] Starting gunicorn 22.0.0
+[2025-07-16 12:42:20 +0200] [524] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (524)
+[2025-07-16 12:42:20 +0200] [524] [INFO] Using worker: sync
+[2025-07-16 12:42:20 +0200] [857] [INFO] Booting worker with pid: 857
+[2025-07-16 12:42:20 +0200] [858] [INFO] Booting worker with pid: 858
+[2025-07-16 12:42:21 +0200] [866] [INFO] Booting worker with pid: 866
+[2025-07-17 23:32:04 +0200] [524] [INFO] Handling signal: term
+[2025-07-17 21:32:05 +0000] [857] [INFO] Worker exiting (pid: 857)
+[2025-07-17 21:32:05 +0000] [866] [INFO] Worker exiting (pid: 866)
+[2025-07-17 21:32:05 +0000] [858] [INFO] Worker exiting (pid: 858)
+[2025-07-17 23:32:05 +0200] [524] [INFO] Shutting down: Master
+[2025-07-18 12:37:09 +0200] [523] [INFO] Starting gunicorn 22.0.0
+[2025-07-18 12:37:09 +0200] [523] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (523)
+[2025-07-18 12:37:09 +0200] [523] [INFO] Using worker: sync
+[2025-07-18 12:37:09 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-07-18 12:37:09 +0200] [860] [INFO] Booting worker with pid: 860
+[2025-07-18 12:37:09 +0200] [863] [INFO] Booting worker with pid: 863
+[2025-07-21 01:09:40 +0200] [523] [INFO] Handling signal: term
+[2025-07-20 23:09:41 +0000] [860] [INFO] Worker exiting (pid: 860)
+[2025-07-20 23:09:41 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-07-20 23:09:41 +0000] [863] [INFO] Worker exiting (pid: 863)
+[2025-07-21 01:09:41 +0200] [523] [INFO] Shutting down: Master
+[2025-07-21 12:19:04 +0200] [545] [INFO] Starting gunicorn 22.0.0
+[2025-07-21 12:19:04 +0200] [545] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (545)
+[2025-07-21 12:19:04 +0200] [545] [INFO] Using worker: sync
+[2025-07-21 12:19:04 +0200] [912] [INFO] Booting worker with pid: 912
+[2025-07-21 12:19:04 +0200] [913] [INFO] Booting worker with pid: 913
+[2025-07-21 12:19:04 +0200] [918] [INFO] Booting worker with pid: 918
+[2025-07-22 01:26:07 +0200] [545] [INFO] Handling signal: term
+[2025-07-21 23:26:07 +0000] [918] [INFO] Worker exiting (pid: 918)
+[2025-07-21 23:26:07 +0000] [913] [INFO] Worker exiting (pid: 913)
+[2025-07-21 23:26:07 +0000] [912] [INFO] Worker exiting (pid: 912)
+[2025-07-22 01:26:08 +0200] [545] [INFO] Shutting down: Master
+[2025-07-22 19:09:12 +0200] [544] [INFO] Starting gunicorn 22.0.0
+[2025-07-22 19:09:12 +0200] [544] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (544)
+[2025-07-22 19:09:12 +0200] [544] [INFO] Using worker: sync
+[2025-07-22 19:09:12 +0200] [854] [INFO] Booting worker with pid: 854
+[2025-07-22 19:09:13 +0200] [856] [INFO] Booting worker with pid: 856
+[2025-07-22 19:09:13 +0200] [860] [INFO] Booting worker with pid: 860
+[2025-07-25 13:38:25 +0200] [544] [INFO] Handling signal: term
+[2025-07-25 11:38:25 +0000] [854] [INFO] Worker exiting (pid: 854)
+[2025-07-25 11:38:25 +0000] [856] [INFO] Worker exiting (pid: 856)
+[2025-07-25 11:38:25 +0000] [860] [INFO] Worker exiting (pid: 860)
+[2025-07-25 13:38:25 +0200] [544] [INFO] Shutting down: Master
+[2025-07-25 19:01:36 +0200] [548] [INFO] Starting gunicorn 22.0.0
+[2025-07-25 19:01:36 +0200] [548] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (548)
+[2025-07-25 19:01:36 +0200] [548] [INFO] Using worker: sync
+[2025-07-25 19:01:36 +0200] [889] [INFO] Booting worker with pid: 889
+[2025-07-25 19:01:36 +0200] [890] [INFO] Booting worker with pid: 890
+[2025-07-25 19:01:36 +0200] [893] [INFO] Booting worker with pid: 893
+[2025-07-29 21:46:33 +0200] [548] [INFO] Handling signal: term
+[2025-07-29 19:46:33 +0000] [889] [INFO] Worker exiting (pid: 889)
+[2025-07-29 19:46:33 +0000] [893] [INFO] Worker exiting (pid: 893)
+[2025-07-29 19:46:33 +0000] [890] [INFO] Worker exiting (pid: 890)
+[2025-07-29 21:46:33 +0200] [548] [INFO] Shutting down: Master
+[2025-07-29 23:14:56 +0200] [773] [INFO] Starting gunicorn 22.0.0
+[2025-07-29 23:14:56 +0200] [773] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (773)
+[2025-07-29 23:14:56 +0200] [773] [INFO] Using worker: sync
+[2025-07-29 23:14:56 +0200] [1086] [INFO] Booting worker with pid: 1086
+[2025-07-29 23:14:57 +0200] [1096] [INFO] Booting worker with pid: 1096
+[2025-07-29 23:14:57 +0200] [1120] [INFO] Booting worker with pid: 1120
+[2025-07-30 00:51:31 +0200] [773] [INFO] Handling signal: term
+[2025-07-29 22:51:31 +0000] [1086] [INFO] Worker exiting (pid: 1086)
+[2025-07-29 22:51:31 +0000] [1096] [INFO] Worker exiting (pid: 1096)
+[2025-07-29 22:51:31 +0000] [1120] [INFO] Worker exiting (pid: 1120)
+[2025-07-30 00:51:32 +0200] [773] [INFO] Shutting down: Master
+[2025-07-30 00:56:56 +0200] [794] [INFO] Starting gunicorn 22.0.0
+[2025-07-30 00:56:56 +0200] [794] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (794)
+[2025-07-30 00:56:56 +0200] [794] [INFO] Using worker: sync
+[2025-07-30 00:56:56 +0200] [1071] [INFO] Booting worker with pid: 1071
+[2025-07-30 00:56:57 +0200] [1073] [INFO] Booting worker with pid: 1073
+[2025-07-30 00:56:57 +0200] [1085] [INFO] Booting worker with pid: 1085
+[2025-07-30 07:43:23 +0200] [794] [INFO] Handling signal: term
+[2025-07-30 05:43:23 +0000] [1071] [INFO] Worker exiting (pid: 1071)
+[2025-07-30 05:43:23 +0000] [1073] [INFO] Worker exiting (pid: 1073)
+[2025-07-30 05:43:23 +0000] [1085] [INFO] Worker exiting (pid: 1085)
+[2025-07-30 07:43:23 +0200] [794] [INFO] Shutting down: Master
+[2025-07-30 19:40:42 +0200] [536] [INFO] Starting gunicorn 22.0.0
+[2025-07-30 19:40:42 +0200] [536] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (536)
+[2025-07-30 19:40:42 +0200] [536] [INFO] Using worker: sync
+[2025-07-30 19:40:42 +0200] [848] [INFO] Booting worker with pid: 848
+[2025-07-30 19:40:42 +0200] [850] [INFO] Booting worker with pid: 850
+[2025-07-30 19:40:42 +0200] [855] [INFO] Booting worker with pid: 855
+[2025-07-31 00:47:38 +0200] [536] [INFO] Handling signal: term
+[2025-07-30 22:47:38 +0000] [848] [INFO] Worker exiting (pid: 848)
+[2025-07-30 22:47:38 +0000] [850] [INFO] Worker exiting (pid: 850)
+[2025-07-30 22:47:38 +0000] [855] [INFO] Worker exiting (pid: 855)
+[2025-07-31 00:47:39 +0200] [536] [INFO] Shutting down: Master
+[2025-07-31 18:59:19 +0200] [540] [INFO] Starting gunicorn 22.0.0
+[2025-07-31 18:59:19 +0200] [540] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (540)
+[2025-07-31 18:59:19 +0200] [540] [INFO] Using worker: sync
+[2025-07-31 18:59:19 +0200] [833] [INFO] Booting worker with pid: 833
+[2025-07-31 18:59:19 +0200] [835] [INFO] Booting worker with pid: 835
+[2025-07-31 18:59:19 +0200] [836] [INFO] Booting worker with pid: 836
+[2025-08-01 12:53:40 +0200] [540] [INFO] Handling signal: term
+[2025-08-01 10:53:40 +0000] [833] [INFO] Worker exiting (pid: 833)
+[2025-08-01 10:53:40 +0000] [835] [INFO] Worker exiting (pid: 835)
+[2025-08-01 10:53:40 +0000] [836] [INFO] Worker exiting (pid: 836)
+[2025-08-01 12:53:40 +0200] [540] [INFO] Shutting down: Master
+[2025-08-01 20:05:35 +0200] [550] [INFO] Starting gunicorn 22.0.0
+[2025-08-01 20:05:35 +0200] [550] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (550)
+[2025-08-01 20:05:35 +0200] [550] [INFO] Using worker: sync
+[2025-08-01 20:05:35 +0200] [845] [INFO] Booting worker with pid: 845
+[2025-08-01 20:05:35 +0200] [847] [INFO] Booting worker with pid: 847
+[2025-08-01 20:05:35 +0200] [849] [INFO] Booting worker with pid: 849
+[2025-08-03 23:03:13 +0200] [550] [INFO] Handling signal: term
+[2025-08-03 21:03:14 +0000] [849] [INFO] Worker exiting (pid: 849)
+[2025-08-03 21:03:14 +0000] [845] [INFO] Worker exiting (pid: 845)
+[2025-08-03 21:03:14 +0000] [847] [INFO] Worker exiting (pid: 847)
+[2025-08-03 23:03:14 +0200] [550] [INFO] Shutting down: Master
+[2025-08-04 07:38:26 +0200] [528] [INFO] Starting gunicorn 22.0.0
+[2025-08-04 07:38:26 +0200] [528] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (528)
+[2025-08-04 07:38:26 +0200] [528] [INFO] Using worker: sync
+[2025-08-04 07:38:26 +0200] [893] [INFO] Booting worker with pid: 893
+[2025-08-04 07:38:27 +0200] [894] [INFO] Booting worker with pid: 894
+[2025-08-04 07:38:27 +0200] [896] [INFO] Booting worker with pid: 896
+[2025-08-04 23:15:06 +0200] [528] [INFO] Handling signal: term
+[2025-08-04 21:15:06 +0000] [894] [INFO] Worker exiting (pid: 894)
+[2025-08-04 21:15:06 +0000] [896] [INFO] Worker exiting (pid: 896)
+[2025-08-04 21:15:06 +0000] [893] [INFO] Worker exiting (pid: 893)
+[2025-08-04 23:15:07 +0200] [528] [INFO] Shutting down: Master
+[2025-08-05 19:45:31 +0200] [529] [INFO] Starting gunicorn 22.0.0
+[2025-08-05 19:45:31 +0200] [529] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (529)
+[2025-08-05 19:45:31 +0200] [529] [INFO] Using worker: sync
+[2025-08-05 19:45:31 +0200] [918] [INFO] Booting worker with pid: 918
+[2025-08-05 19:45:31 +0200] [927] [INFO] Booting worker with pid: 927
+[2025-08-05 19:45:32 +0200] [928] [INFO] Booting worker with pid: 928
+[2025-08-05 23:42:04 +0200] [529] [INFO] Handling signal: term
+[2025-08-05 21:42:04 +0000] [927] [INFO] Worker exiting (pid: 927)
+[2025-08-05 21:42:04 +0000] [918] [INFO] Worker exiting (pid: 918)
+[2025-08-05 21:42:04 +0000] [928] [INFO] Worker exiting (pid: 928)
+[2025-08-05 23:42:05 +0200] [529] [INFO] Shutting down: Master
+[2025-08-06 12:19:18 +0200] [549] [INFO] Starting gunicorn 22.0.0
+[2025-08-06 12:19:18 +0200] [549] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (549)
+[2025-08-06 12:19:18 +0200] [549] [INFO] Using worker: sync
+[2025-08-06 12:19:18 +0200] [867] [INFO] Booting worker with pid: 867
+[2025-08-06 12:19:19 +0200] [885] [INFO] Booting worker with pid: 885
+[2025-08-06 12:19:19 +0200] [887] [INFO] Booting worker with pid: 887
+[2025-08-06 12:55:07 +0200] [549] [INFO] Handling signal: term
+[2025-08-06 10:55:07 +0000] [885] [INFO] Worker exiting (pid: 885)
+[2025-08-06 10:55:07 +0000] [887] [INFO] Worker exiting (pid: 887)
+[2025-08-06 10:55:07 +0000] [867] [INFO] Worker exiting (pid: 867)
+[2025-08-06 12:55:07 +0200] [549] [INFO] Shutting down: Master
+[2025-08-06 17:41:48 +0200] [527] [INFO] Starting gunicorn 22.0.0
+[2025-08-06 17:41:48 +0200] [527] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (527)
+[2025-08-06 17:41:48 +0200] [527] [INFO] Using worker: sync
+[2025-08-06 17:41:48 +0200] [803] [INFO] Booting worker with pid: 803
+[2025-08-06 17:41:48 +0200] [809] [INFO] Booting worker with pid: 809
+[2025-08-06 17:41:48 +0200] [812] [INFO] Booting worker with pid: 812
+[2025-08-07 07:51:33 +0200] [527] [INFO] Handling signal: term
+[2025-08-07 05:51:33 +0000] [809] [INFO] Worker exiting (pid: 809)
+[2025-08-07 05:51:33 +0000] [812] [INFO] Worker exiting (pid: 812)
+[2025-08-07 05:51:33 +0000] [803] [INFO] Worker exiting (pid: 803)
+[2025-08-07 07:51:34 +0200] [527] [INFO] Shutting down: Master
+[2025-08-07 22:00:07 +0200] [542] [INFO] Starting gunicorn 22.0.0
+[2025-08-07 22:00:07 +0200] [542] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (542)
+[2025-08-07 22:00:07 +0200] [542] [INFO] Using worker: sync
+[2025-08-07 22:00:07 +0200] [905] [INFO] Booting worker with pid: 905
+[2025-08-07 22:00:07 +0200] [906] [INFO] Booting worker with pid: 906
+[2025-08-07 22:00:07 +0200] [910] [INFO] Booting worker with pid: 910
+[2025-08-10 23:13:44 +0200] [542] [INFO] Handling signal: term
+[2025-08-10 21:13:44 +0000] [906] [INFO] Worker exiting (pid: 906)
+[2025-08-10 21:13:44 +0000] [905] [INFO] Worker exiting (pid: 905)
+[2025-08-10 21:13:44 +0000] [910] [INFO] Worker exiting (pid: 910)
+[2025-08-10 23:13:45 +0200] [542] [INFO] Shutting down: Master
+[2025-08-12 17:47:42 +0200] [537] [INFO] Starting gunicorn 22.0.0
+[2025-08-12 17:47:42 +0200] [537] [INFO] Listening at: unix:/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock (537)
+[2025-08-12 17:47:42 +0200] [537] [INFO] Using worker: sync
+[2025-08-12 17:47:42 +0200] [868] [INFO] Booting worker with pid: 868
+[2025-08-12 17:47:42 +0200] [873] [INFO] Booting worker with pid: 873
+[2025-08-12 17:47:42 +0200] [879] [INFO] Booting worker with pid: 879
+[2025-08-19 23:01:37 +0200] [537] [INFO] Handling signal: term
+Traceback (most recent call last):
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 224, in run
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 257, in handle_term
+StopIteration
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/bin/gunicorn", line 8, in <module>
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/app/wsgiapp.py", line 67, in run
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/app/base.py", line 236, in run
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/app/base.py", line 72, in run
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 227, in run
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 342, in halt
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/arbiter.py", line 385, in stop
+  File "/Users/zzzzzz/PycharmProjects/Stomotology/venv/lib/python3.11/site-packages/gunicorn/sock.py", line 213, in close_sockets
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/zzzzzz/PycharmProjects/Stomotology/Stomotology.sock'
+[2025-08-19 21:01:37 +0000] [873] [INFO] Worker exiting (pid: 873)
+[2025-08-19 21:01:37 +0000] [868] [INFO] Worker exiting (pid: 868)
+[2025-08-19 21:01:37 +0000] [879] [INFO] Worker exiting (pid: 879)

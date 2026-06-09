@@ -4,7 +4,7 @@
 
 
 {% block content %}
-    <style>
+        <style>
         .header {background: url("/static/dent/images/home.jpg") no-repeat;
         background-size: cover;}
         .col-12.col-lg-6.col-xl-5.offset-xl-1 {
@@ -28,14 +28,14 @@
     <div class="container hero">
         <div class="row">
             <div class="col-12 col-lg-6 col-xl-5 offset-xl-1">
+                {% for banner in banner %}
+                    <p>{{ banner.banner }}</p>
+                {% endfor %}
                 {% for desc in descriptions_list %}
                     <p>{{ desc.home_page_description }}</p>
                 {% endfor %}
                     <a href="{% url 'contact' %}" class="btn btn-light btn-lg action-button" type="button">{% trans "Book an appointment" %}</a>
                     <a href="https://www.znamylekar.cz/zarizeni/ikdental-s-r-o" target="_blank" class="btn btn-light btn-lg action-button" type="button">ZnamyLekar.cz</a>
-                {% for banner in banner %}
-                    <p>{{ banner.banner }}</p>
-                {% endfor %}
             </div>
 
         </div>

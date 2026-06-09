@@ -2,12 +2,7 @@
 <project version="4">
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="ssh.rosti.cz" id="0dd219fd-c6b7-4afd-b6ea-99add7eba758" port="14355" customName="Webglobe" nameFormat="CUSTOM" username="app" useOpenSSHConfig="true">
-        <option name="customName" value="Webglobe" />
-      </sshConfig>
-      <sshConfig authType="PASSWORD" id="d37210a5-8de8-4e46-8bfc-b0c34f3ef8d1" customName="rostiapp" nameFormat="CUSTOM" useOpenSSHConfig="true">
-        <option name="customName" value="rostiapp" />
-      </sshConfig>
+      <sshConfig host="ssh.rosti.cz" id="0dd219fd-c6b7-4afd-b6ea-99add7eba758" keyPath="$USER_HOME$/.ssh/id_rsa" port="14355" nameFormat="DESCRIPTIVE" username="app" useOpenSSHConfig="false" />
     </configs>
   </component>
 </project>

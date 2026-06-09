@@ -3,14 +3,14 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="82961dad-7ffe-4032-932d-26c98a161393" name="webG" url="http://ikdentall.cz">
-        <fileTransfer rootFolder="/srv" accessType="SFTP" host="ssh.rosti.cz" port="14355" sshConfigId="0dd219fd-c6b7-4afd-b6ea-99add7eba758" sshConfig="Webglobe">
+        <fileTransfer rootFolder="/srv" accessType="SFTP" host="ssh.rosti.cz" port="14355" sshConfigId="0dd219fd-c6b7-4afd-b6ea-99add7eba758" sshConfig="app@ssh.rosti.cz:14355 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>
       <webServer id="cbfc9f30-e94f-4560-ba9e-39ee7579a0da" name="rosti">
-        <fileTransfer rootFolder="/srv" accessType="SFTP" host="ssh.rosti.cz" port="14355" sshConfigId="0dd219fd-c6b7-4afd-b6ea-99add7eba758" sshConfig="Webglobe">
+        <fileTransfer rootFolder="/srv" accessType="SFTP" host="ssh.rosti.cz" port="14355" sshConfigId="0dd219fd-c6b7-4afd-b6ea-99add7eba758" sshConfig="app@ssh.rosti.cz:14355 key" keyPair="true">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
